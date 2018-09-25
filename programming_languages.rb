@@ -3,5 +3,12 @@ def reformat_languages(languages)
     case language 
     when :ruby
       :ruby << [:style] = [:oo]
-    end
+   
+    
+     when :javascript
+      :javascript << [:style] = [:oo, :functional]
+    
+    
+    
+    
 end
